@@ -1,2 +1,2 @@
-fastmcp>=2.3.2
+fastmcp==2.3.2
 uvicorn

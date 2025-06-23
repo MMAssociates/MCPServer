@@ -13,4 +13,4 @@ def notify_user(user_id: str, message: str, ctx: Context) -> str:
     return f"Message sent to {user_id}"
 
 # Expose FastMCP server as a FastAPI app for Render
-app = mcp.as_fastapi()
+app = mcp.from_fastapi()
